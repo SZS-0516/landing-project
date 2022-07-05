@@ -1,0 +1,132 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 1000vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    margin: 0%;
+}
+
+header {
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 0 70px;
+    
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+
+.headerlink {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    margin: 0%;
+    
+}
+
+a {
+    padding-left: 20px;
+
+}
+
+.maintitle  {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 80px;
+}
+
+.webtitle {
+    font-size: 48px;
+    font-weight: 1000;
+}
+
+.randombody {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: 1000;
+    text-align: center;
+    margin: 20px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 250px;
+    padding: 50px;
+    gap: 50px;
+}
+
+img {
+    border: 3px #3882f6;
+    box-sizing: border-box;
+}
+
+.quotebody {
+    background-color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 60px;
+    color: #1f2937;
+}
+
+.testimonial {
+    margin: auto 250px;
+    
+}
+
+.quote {
+    color: #1f2937;
+    font-size: 36px;
+}
+
+.name {
+    font-weight: 1000;
+    text-align: right;
+    
+}
+
+.call {
+    background-color: #3882f6;
+    color: white;
+    margin: 60px 150;
+    padding: 25px;
+}
+
+.signup {
+    background-color: #3882f6;
+    color: white;
+    width: 100px;
+    height: 30px;
+}
+
+.call .signup {
+    border: 3px white;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
