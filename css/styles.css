@@ -1,7 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
+
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    height: 1000vh;
-    overflow: hidden;
+    overflow: scroll;
     display: flex;
     flex-direction: column;
     font-size: 18px;
@@ -13,21 +14,30 @@ header {
     color: white;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     padding: 0 70px;
     
 }
-
-.logo {
-    font-size: 24px;
-    color: #f9faf8;
-}
-
 
 .headerlink {
     display: flex;
     justify-content: space-between;
     padding-top: 15px;
+    margin: 0%;
 }
+
+.logo {
+    display: flex;
+    
+    margin-left: 0%;
+    font-size: 24px;
+    font-weight: 1000;
+    color: #f9faf8;
+}
+
+
+
 
 ul {
     list-style: none;
@@ -43,15 +53,30 @@ a {
 
 .maintitle  {
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 300px;
+    margin-right: auto;
     padding: 80px;
+}
+
+.maintext {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
 }
 
 .webtitle {
     font-size: 48px;
     font-weight: 1000;
+}
+
+.rabbit {
+    display: flex;
+    height: auto;
+    width: 400px;
+    margin: 0%;
 }
 
 .randombody {
@@ -70,14 +95,26 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 100px 250px;
+    margin: 100px;
     padding: 50px;
     gap: 50px;
 }
 
-img {
-    border: 3px #3882f6;
+.icon {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+
+.bunny {
+    height: auto;
+    width: 150px;
+    border: 3px solid #3882f6;
     box-sizing: border-box;
+    border-radius: 8px;
 }
 
 .quotebody {
@@ -86,12 +123,12 @@ img {
     align-items: center;
     justify-content: center;
     gap: 50px;
-    padding: 60px;
+    padding: 80px;
     color: #1f2937;
 }
 
 .testimonial {
-    margin: auto 250px;
+    margin: auto 100px;
     
 }
 
@@ -109,24 +146,46 @@ img {
 .call {
     background-color: #3882f6;
     color: white;
-    margin: 60px 150;
-    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px;
+    margin: 60px;
+    padding: 40px 70px;
+    gap: 60px;
+}
+
+.actiontext {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.calltitle {
+    font-weight: 800;
+}
+
+.calltext {
+    text-align: left;
 }
 
 .signup {
     background-color: #3882f6;
+    font-weight: 700;
     color: white;
     width: 100px;
     height: 30px;
+    border-radius: 6px;
+    border: #3882f6;
 }
 
 .call .signup {
-    border: 3px white;
+    border: 3px solid white;
 }
 
 .footer {
     background-color: #1f2937;
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 20px;
 }
