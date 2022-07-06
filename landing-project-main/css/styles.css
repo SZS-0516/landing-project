@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
+
+body {
+    font-family: sans-serif;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    font-weight: lighter;
+    margin: 0%;
+}
+
+header {
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 12px 70px;
+    
+}
+
+
+.maintitle  {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+    margin-right: auto;
+    padding: 80px;
+}
+
+.logo {
+    margin-left: 80px;
+    font-size: 24px;
+    font-weight: 1000;
+    color: #f9faf8;
+}
+
+
+
+
+ul {
+    list-style: none;
+    display: flex;
+    margin-right: 70px;
+    
+}
+
+a {
+    padding-left: 20px;
+
+}
+
+
+
+.maintext {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.webtitle {
+    font-size: 48px;
+    font-weight: 1000;
+}
+
+.rabbit-container {
+    width: 800px;
+    height: 400px;
+    overflow: hidden;
+    margin-left: 80px;
+}
+
+.rabbit-container img {
+    margin-top: -110px;
+    margin-left: -40px;
+}
+
+.rabbit {
+    display: flex;
+    height: auto;
+    width: 400px;
+    margin: 0%;
+}
+
+.randombody {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: 1000;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 200px;
+    margin-bottom: 70px;
+    padding: 0 100px;
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+
+.bunny {
+    height: auto;
+    width: 150px;
+    border: 3px solid #3882f6;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.quotebody {
+    background-color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 100px;
+    color: #1f2937;
+}
+
+.testimonial {
+    margin: auto 200px;
+    
+}
+
+.quote {
+    color: #1f2937;
+    font-size: 36px;
+}
+
+.name {
+    font-weight: 1000;
+    text-align: right;
+    margin-right: 40px;
+    
+}
+
+.call {
+    background-color: #3882f6;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px;
+    margin: 80px 200px;
+    padding: 40px 100px;
+    gap: 60px;
+}
+
+.actiontext {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.calltitle {
+    font-weight: 800;
+}
+
+.calltext {
+    text-align: left;
+}
+
+.signup {
+    background-color: #3882f6;
+    font-weight: 700;
+    color: white;
+    width: 110px;
+    height: 35px;
+    border-radius: 6px;
+    border: #3882f6;
+}
+
+.call .signup {
+    border: 2px solid white;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
