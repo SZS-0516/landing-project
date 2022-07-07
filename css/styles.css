@@ -17,8 +17,7 @@ header {
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 12px 70px;
-    
+    padding: 12px 200px;
 }
 
 
@@ -68,13 +67,12 @@ a {
 }
 
 .rabbit-container {
-    width: 800px;
     height: 400px;
     overflow: hidden;
-    margin-left: 80px;
 }
 
 .rabbit-container img {
+    display: flex;
     margin-top: -110px;
     margin-left: -40px;
 }
@@ -102,7 +100,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 10px 200px;
+    margin: 10px 300px;
     margin-bottom: 70px;
     padding: 0 100px;
 }
@@ -136,8 +134,7 @@ a {
 }
 
 .testimonial {
-    margin: auto 200px;
-    
+    margin: auto 300px;
 }
 
 .quote {
@@ -159,7 +156,7 @@ a {
     align-items: center;
     justify-content: space-between;
     border-radius: 8px;
-    margin: 80px 200px;
+    margin: 80px 400px;
     padding: 40px 100px;
     gap: 60px;
 }
